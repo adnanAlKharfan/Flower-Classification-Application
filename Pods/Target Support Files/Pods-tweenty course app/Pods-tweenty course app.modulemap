@@ -1,0 +1,6 @@
+framework module Pods_tweenty_course_app {
+  umbrella header "Pods-tweenty course app-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69B5B1185580EDF76D7AEBC6 /* Pods_tweenty_course_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35E6629005A65DDD7D36DE2 /* Pods_tweenty_course_app.framework */; };
+		8478856926A34AD700DABD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478856826A34AD700DABD5C /* AppDelegate.swift */; };
+		8478856B26A34AD700DABD5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478856A26A34AD700DABD5C /* SceneDelegate.swift */; };
+		8478856D26A34AD700DABD5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478856C26A34AD700DABD5C /* ViewController.swift */; };
+		8478857026A34AD700DABD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8478856E26A34AD700DABD5C /* Main.storyboard */; };
+		8478857326A34AD700DABD5C /* tweenty_course_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8478857126A34AD700DABD5C /* tweenty_course_app.xcdatamodeld */; };
+		8478857526A34AE200DABD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8478857426A34AE200DABD5C /* Assets.xcassets */; };
+		8478857826A34AE200DABD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8478857626A34AE200DABD5C /* LaunchScreen.storyboard */; };
+		8478858026A34AF600DABD5C /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8478857F26A34AF600DABD5C /* FlowerClassifier.mlmodel */; };
+		8478858526A34F3000DABD5C /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478858426A34F3000DABD5C /* api.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301B3B8418010F073D24F956 /* Pods-tweenty course app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tweenty course app.debug.xcconfig"; path = "Target Support Files/Pods-tweenty course app/Pods-tweenty course app.debug.xcconfig"; sourceTree = "<group>"; };
+		672DB9978A3D11931A9BE1D8 /* Pods-tweenty course app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tweenty course app.release.xcconfig"; path = "Target Support Files/Pods-tweenty course app/Pods-tweenty course app.release.xcconfig"; sourceTree = "<group>"; };
+		8478856526A34AD700DABD5C /* tweenty course app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tweenty course app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8478856826A34AD700DABD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8478856A26A34AD700DABD5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8478856C26A34AD700DABD5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8478856F26A34AD700DABD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8478857226A34AD700DABD5C /* tweenty_course_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tweenty_course_app.xcdatamodel; sourceTree = "<group>"; };
+		8478857426A34AE200DABD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8478857726A34AE200DABD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8478857926A34AE200DABD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8478857F26A34AF600DABD5C /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
+		8478858426A34F3000DABD5C /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		D35E6629005A65DDD7D36DE2 /* Pods_tweenty_course_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tweenty_course_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8478856226A34AD700DABD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B5B1185580EDF76D7AEBC6 /* Pods_tweenty_course_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9E27559F2837F3E0700896 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35E6629005A65DDD7D36DE2 /* Pods_tweenty_course_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8478855C26A34AD600DABD5C = {
+			isa = PBXGroup;
+			children = (
+				8478856726A34AD700DABD5C /* tweenty course app */,
+				8478856626A34AD700DABD5C /* Products */,
+				BDF8FF59C8D8C567DE6481E3 /* Pods */,
+				2D9E27559F2837F3E0700896 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8478856626A34AD700DABD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8478856526A34AD700DABD5C /* tweenty course app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8478856726A34AD700DABD5C /* tweenty course app */ = {
+			isa = PBXGroup;
+			children = (
+				8478858326A34F1400DABD5C /* Model */,
+				8478856826A34AD700DABD5C /* AppDelegate.swift */,
+				8478857F26A34AF600DABD5C /* FlowerClassifier.mlmodel */,
+				8478856A26A34AD700DABD5C /* SceneDelegate.swift */,
+				8478856C26A34AD700DABD5C /* ViewController.swift */,
+				8478856E26A34AD700DABD5C /* Main.storyboard */,
+				8478857426A34AE200DABD5C /* Assets.xcassets */,
+				8478857626A34AE200DABD5C /* LaunchScreen.storyboard */,
+				8478857926A34AE200DABD5C /* Info.plist */,
+				8478857126A34AD700DABD5C /* tweenty_course_app.xcdatamodeld */,
+			);
+			path = "tweenty course app";
+			sourceTree = "<group>";
+		};
+		8478858326A34F1400DABD5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8478858426A34F3000DABD5C /* api.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDF8FF59C8D8C567DE6481E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301B3B8418010F073D24F956 /* Pods-tweenty course app.debug.xcconfig */,
+				672DB9978A3D11931A9BE1D8 /* Pods-tweenty course app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8478856426A34AD700DABD5C /* tweenty course app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8478857C26A34AE200DABD5C /* Build configuration list for PBXNativeTarget "tweenty course app" */;
+			buildPhases = (
+				038021E86C4BCE08393821B8 /* [CP] Check Pods Manifest.lock */,
+				8478856126A34AD700DABD5C /* Sources */,
+				8478856226A34AD700DABD5C /* Frameworks */,
+				8478856326A34AD700DABD5C /* Resources */,
+				61767FA39BE7074C351B0579 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tweenty course app";
+			productName = "tweenty course app";
+			productReference = 8478856526A34AD700DABD5C /* tweenty course app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8478855D26A34AD600DABD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8478856426A34AD700DABD5C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8478856026A34AD600DABD5C /* Build configuration list for PBXProject "tweenty course app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8478855C26A34AD600DABD5C;
+			productRefGroup = 8478856626A34AD700DABD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8478856426A34AD700DABD5C /* tweenty course app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8478856326A34AD700DABD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478857826A34AE200DABD5C /* LaunchScreen.storyboard in Resources */,
+				8478857526A34AE200DABD5C /* Assets.xcassets in Resources */,
+				8478857026A34AD700DABD5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		038021E86C4BCE08393821B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tweenty course app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61767FA39BE7074C351B0579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tweenty course app/Pods-tweenty course app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tweenty course app/Pods-tweenty course app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tweenty course app/Pods-tweenty course app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8478856126A34AD700DABD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8478856D26A34AD700DABD5C /* ViewController.swift in Sources */,
+				8478856926A34AD700DABD5C /* AppDelegate.swift in Sources */,
+				8478856B26A34AD700DABD5C /* SceneDelegate.swift in Sources */,
+				8478858026A34AF600DABD5C /* FlowerClassifier.mlmodel in Sources */,
+				8478858526A34F3000DABD5C /* api.swift in Sources */,
+				8478857326A34AD700DABD5C /* tweenty_course_app.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8478856E26A34AD700DABD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8478856F26A34AD700DABD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8478857626A34AE200DABD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8478857726A34AE200DABD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8478857A26A34AE200DABD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8478857B26A34AE200DABD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8478857D26A34AE200DABD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301B3B8418010F073D24F956 /* Pods-tweenty course app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6X6WN79WB;
+				INFOPLIST_FILE = "tweenty course app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adnan.tweenty-course-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8478857E26A34AE200DABD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 672DB9978A3D11931A9BE1D8 /* Pods-tweenty course app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6X6WN79WB;
+				INFOPLIST_FILE = "tweenty course app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adnan.tweenty-course-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8478856026A34AD600DABD5C /* Build configuration list for PBXProject "tweenty course app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478857A26A34AE200DABD5C /* Debug */,
+				8478857B26A34AE200DABD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8478857C26A34AE200DABD5C /* Build configuration list for PBXNativeTarget "tweenty course app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8478857D26A34AE200DABD5C /* Debug */,
+				8478857E26A34AE200DABD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8478857126A34AD700DABD5C /* tweenty_course_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8478857226A34AD700DABD5C /* tweenty_course_app.xcdatamodel */,
+			);
+			currentVersion = 8478857226A34AD700DABD5C /* tweenty_course_app.xcdatamodel */;
+			path = tweenty_course_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8478855D26A34AD600DABD5C /* Project object */;
+}

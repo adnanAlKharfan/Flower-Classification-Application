@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="E6G-Pc-1hI">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tweenty_course_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qzE-eU-7d4">
+                                <rect key="frame" x="0.0" y="92" width="414" height="804"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mAa-QD-wmm">
+                                        <rect key="frame" x="-8" y="-18" width="422" height="246"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="246" id="9PG-h5-dgq"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" placeholderIntrinsicWidth="1000" placeholderIntrinsicHeight="572" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spg-sI-yqE">
+                                        <rect key="frame" x="0.0" y="236" width="414" height="568"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" none="YES"/>
+                                        </accessibility>
+                                        <string key="text">onarda is a genus of flowering plants in the mint family, Lamiaceae. The genus is endemic to North America. Common names include bergamot, bee balm, horsemint, oswego tea, the first inspired by the fragrance of the leaves, which is reminiscent of bergamot orange (Citrus bergamia). The genus was named for the Spanish botanist Nicolás Monardes, who wrote a book in 1574 describing plants of the New World.</string>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="mAa-QD-wmm" firstAttribute="leading" secondItem="qzE-eU-7d4" secondAttribute="leading" constant="-8" id="0MF-4T-SF2"/>
+                                    <constraint firstItem="spg-sI-yqE" firstAttribute="top" secondItem="mAa-QD-wmm" secondAttribute="bottom" constant="8" id="4rg-yl-GeG"/>
+                                    <constraint firstItem="mAa-QD-wmm" firstAttribute="top" secondItem="qzE-eU-7d4" secondAttribute="top" constant="-18" id="EgC-QU-rpC"/>
+                                    <constraint firstAttribute="trailing" secondItem="mAa-QD-wmm" secondAttribute="trailing" id="GSX-gv-0wR"/>
+                                    <constraint firstAttribute="trailing" secondItem="spg-sI-yqE" secondAttribute="trailing" id="XEa-pi-Tkk"/>
+                                    <constraint firstItem="spg-sI-yqE" firstAttribute="leading" secondItem="qzE-eU-7d4" secondAttribute="leading" id="ZYX-Np-MFt"/>
+                                    <constraint firstAttribute="bottom" secondItem="spg-sI-yqE" secondAttribute="bottom" id="g52-Ta-aPz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qzE-eU-7d4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3H6-xI-b7w"/>
+                            <constraint firstItem="qzE-eU-7d4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gki-MZ-goO"/>
+                            <constraint firstAttribute="bottom" secondItem="qzE-eU-7d4" secondAttribute="bottom" id="H8m-C9-F5B"/>
+                            <constraint firstItem="qzE-eU-7d4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VIj-gn-eun"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="bA8-0d-yRS">
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="ur6-L1-ywn">
+                            <connections>
+                                <action selector="imageButton:" destination="BYZ-38-t0r" id="Rar-e9-bN0"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="image" destination="mAa-QD-wmm" id="G9W-gc-Ym9"/>
+                        <outlet property="lable" destination="spg-sI-yqE" id="y0d-kq-YI0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.98550724637687" y="79.6875"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SbL-ip-gPm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="E6G-Pc-1hI" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OQb-yF-q7I">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="a3A-Rb-vNh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ycE-Wn-KZ2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="79.6875"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
