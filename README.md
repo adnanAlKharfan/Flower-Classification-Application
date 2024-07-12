@@ -52,25 +52,25 @@ pod install
 
 5. Download the machine learning model:
 
-- Visit the following link to download the machine learning model: [Download Model](https://drive.google.com/file/d/1YAC-5FBdTb4ANQwOWBEGIScUkHWld9Em/view?usp=share_link)
+    - Visit the following link to download the machine learning model: [Download Model](https://drive.google.com/file/d/1YAC-5FBdTb4ANQwOWBEGIScUkHWld9Em/view?usp=share_link)
 
-- Copy the downloaded model into the project.
+    - Copy the downloaded model into the project.
 
 
 ## Usage
 
 1. Launch the app in Xcode:
 
-- Select the target device (e.g., iPhone simulator or connected device).
-- Click on the run button or press Cmd + R to build and run the app.
+    - Select the target device (e.g., iPhone simulator or connected device).
+    - Click on the run button or press Cmd + R to build and run the app.
 
 2. Capture or upload a flower image:
 
-- Use the camera functionality to capture an image or upload an image from the gallery.
+    - Use the camera functionality to capture an image or upload an image from the gallery.
 
 3. View the classification result:
 
-- The app will display the predicted flower type along with additional information from wikipedia.
+    - The app will display the predicted flower type along with additional information from wikipedia.
 
 ## Dependencies
 
